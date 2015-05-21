@@ -14,8 +14,3 @@
  *= require_self
  */
 
-
- /* Hide asterisk in form */
-abbr[title="required"] {
-  display: none;
-}
