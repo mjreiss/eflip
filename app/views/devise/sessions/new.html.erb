@@ -6,7 +6,8 @@
     <%= f.input :password, required: false, label: false, placeholder: "Password", input_html: {class: "form-control"} %>
     <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
  
-    <%= f.button :submit, "Log in", class: "btn btn-primary btn-block" %>
+    <%= f.button :button, "Log in", class: "btn btn-primary btn-block", data: {disable_with:"<span class= 'fa fa-spinner fa-spin'> </span> Logging in".html_safe} %>
+
  <%= render "devise/shared/links" %>
 <% end %>
  
