@@ -20,6 +20,8 @@ gem "twitter-bootstrap-rails"
 gem 'simple_form'
 gem 'devise'
 gem "font-awesome-rails"
+gem 'cancan'
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
