@@ -2,11 +2,13 @@
 
 Marketplace app for buying eBooks. Have a look around (or don't, I'm a readme not a cop).
 
+
 To faux purchase a book through the test Stripe setup use:
 
 Card - 4242 4242 4242 4242
 Exp - 12/20 (or anything after today's date)
 CVC - 123 (or any three numbers)
+
 
 This app could have:
 
@@ -19,6 +21,8 @@ This app could have:
 * Rock'em Sock'em Robots
 
 * Subpar golf tips
+
+
 
 
 michaeljreiss.com
