@@ -23,6 +23,6 @@ This app could have:
 * Subpar golf tips
 
 
+live: {demo}[eflipapp.heroku.com]
 
-
-michaeljreiss.com
+me: {michaeljreiss.com}[michaeljreiss.com]
