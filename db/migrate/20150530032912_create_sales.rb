@@ -3,7 +3,7 @@ class CreateSales < ActiveRecord::Migration
     create_table :sales do |t|
       t.string :buyer_email
       t.string :seller_email
-      t.integer :amount
+      t.decimal :amount, precision: 8, scale: 2
       t.string :guid
       t.integer :book_id
 

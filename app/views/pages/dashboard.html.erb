@@ -1,43 +1,27 @@
 <div class="row">
-<h1 class="text-center">Dashboard</h1>
-  <div class="col-md-4">
-    <h3 class="text-center">
-      Books <%= link_to "New Book", new_book_path, class: "btn btn-primary"  %>
-    </h3>
-    <table class="table table-condensed">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Available</th>  
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-        <% @books.each do |book| %> 
-          <tr>
-            <td><%= book.id %></td>
-            <td><%= link_to book.name, book_path(book) %></td>
-            <td><% if book.availability %> 
-            	<p>Yes</p> 
-            	<% else %> 
-            	<p> No </p>
-            	<% end %>
-            </td>
-            <td><%= link_to "Edit", edit_book_path(book) %></td>
-          </tr>
-        <% end %>
-        </tbody>
-      </table>
-  </div>
-  <div class="col-md-4">
-    <h3 class="text-center">
-      Purchased
-    </h3>
-  </div>
-  <div class="col-md-4">
-    <h3 class="text-center">
-      Sales
-    </h3>
-  </div>
+	<h1 class="text-center">Dashboard</h1>
+	  <div class="col-md-4">
+	    <div class="dash-box">
+			<h4 class="white uppercase">
+				Books
+			</h4>
+		</div>
+		<%= render "books" %>
+		</div>
+	<div class="col-md-4">
+		<div class="dash-box">
+			<h4 class="white uppercase">
+				Purchased
+			</h4>
+		</div>
+		<%= render "purchased" %>
+	</div>
+	<div class="col-md-4">
+		<div class="dash-box">
+			<h4 class="white uppercase">
+				Sales
+			</h4>
+		</div>
+		<%= render "sales" %>
+	</div>
 </div>
