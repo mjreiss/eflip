@@ -2,15 +2,9 @@
 
 Marketplace app for buying eBooks. Have a look around (or don't, I'm a readme not a cop).
 
+live: {demo}[eflipapp.heroku.com]
 
-To faux purchase a book through the test Stripe setup use:
-
-Card - 4242 4242 4242 4242
-
-Exp - 12/20 (or anything after today's date)
-
-CVC - 123 (or any three numbers)
-
+---
 
 This app could have:
 
@@ -24,7 +18,16 @@ This app could have:
 
 * Subpar golf tips
 
+---
 
-live: {demo}[eflipapp.heroku.com]
+To faux purchase a book through the test Stripe setup use:
+
+Card - 4242 4242 4242 4242
+
+Exp - 12/20 (or anything after today's date)
+
+CVC - 123 (or any three numbers)
+
+---
 
 me: {michaeljreiss.com}[michaeljreiss.com]
