@@ -1,6 +1,6 @@
 == eFlip
 
-Marketplace app for buying eBooks. Have a look around (or don't, I'm a readme not a cop).
+Marketplace app for buying eBooks. Have a look around (or don't).
 
 live: {demo}[eflipapp.heroku.com]
 
